@@ -1,0 +1,54 @@
+body {
+	background-image: url(94.jpg);
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Caveat';
+	color: rgb(196, 45, 108);
+	font-size: 6.5rem;
+	text-shadow: 5px 0 black;
+}
+
+.choice {
+	margin: 0 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	width: 170px;
+	height: 170px;
+	border: 0;
+	border-radius: 90px;
+	outline: none;
+	transition: 0.5s;
+	border: 1px solid firebrick;
+	background-color: #fff;
+}
+
+button:hover {
+	width: 200px;
+	height: 200px;
+	transition: 0.5s;
+	border-radius: 120px;
+}
+
+.drum {
+	background-image: url(depositphotos_12861753-stock-illustration-a-drum.jpg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position-x: 8px;
+	background-position-y: 13px;
+}
+
+.piano {
+	background-image: url(depositphotos_34773141-stock-illustration-piano-wavy-keyboard-and-music.jpg);
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-position-x: 8px;
+	background-position-y: 25px;
+}
